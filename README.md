@@ -48,7 +48,7 @@ The maze used in this project was designed by **[Friend's GitHub Name](https://g
 
 ### Maze Image
 
-![Maze Design](https://your-image-link.com)
+![Maze Design](https://github.com/Nishitha0730/IESL-RoboGames-2024/blob/main/First%20Round/Maze.png)
 
 ### Maze World File
 
