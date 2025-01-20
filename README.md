@@ -42,6 +42,20 @@ The arena and robot behavior were designed to adhere strictly to the competition
 
 ---
 
+## Maze Design
+
+The maze used in this project was designed by **[Friend's GitHub Name](https://github.com/FriendsGitHubProfile)**.
+
+### Maze Image
+
+![Maze Design](https://your-image-link.com)
+
+### Maze World File
+
+Download the Webots world file of the maze here: [Maze World File](https://your-maze-world-link.com)
+
+---
+
 ## Demonstration
 
 ### Image of the Simulation
@@ -71,43 +85,18 @@ IESL-RoboGames-2024/
 - **controllers/epuck_controller/epuck_controller.py**: Contains the Python code for the robot's behavior.
 - **worlds/RoboGames_2024_University_Category.wbt**: The Webots world file for the simulation.
 
-### Example Controller Code
+### Highlights of Controller Code
 
-```python
-from controller import Robot
-
-# Constants
-TIME_STEP = 64
-COLORS = ["Red", "Yellow", "Pink", "Brown", "Green"]
-
-# Initialize robot
-def main():
-    robot = Robot()
-    wheels = [robot.getDevice("wheel1"), robot.getDevice("wheel2")]
-
-    for wheel in wheels:
-        wheel.setPosition(float('inf'))
-        wheel.setVelocity(0.0)
-
-    # Add robot control logic here
-    print("Starting robot navigation...")
-
-    # Simulate navigation (placeholder for actual logic)
-    for color in COLORS:
-        print(f"Navigating to {color} wall...")
-        robot.step(TIME_STEP * 10)  # Placeholder for delay
-
-    print("Task completed!")
-
-if __name__ == "__main__":
-    main()
-```
+1. **Color Detection**: The robot uses the camera to detect the average color and identify the wall's color.
+2. **Flood Fill Algorithm**: A flood fill approach is implemented to calculate the shortest path from the robot's current position to the goal.
+3. **Proximity Sensors**: Sensors are utilized to map walls and detect obstacles.
+4. **Goal Check**: The robot ensures it has reached the correct wall based on color before proceeding to the next target.
 
 ---
 
 ## Requirements
 
-1. [Webots](https://cyberbotics.com/) installed on your system.
+1. Install [Webots](https://cyberbotics.com/).
 2. Clone this repository:
    ```bash
    git clone https://github.com/Nishitha0730/IESL-RoboGames-2024.git
@@ -125,6 +114,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgments
 
 - **IESL RoboGames 2024** organizers for providing the platform.
+- **[Friend's GitHub Name](https://github.com/FriendsGitHubProfile)** for designing the maze.
 - University mentors and peers for their support.
 
 For any queries, feel free to contact me via [GitHub Issues](https://github.com/Nishitha0730/IESL-RoboGames-2024/issues).
