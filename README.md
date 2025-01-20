@@ -75,15 +75,17 @@ Download the Webots world file of the maze here: [Maze World File](https://your-
 ```
 IESL-RoboGames-2024/
 ├── controllers/
-│   └── epuck_controller/
-│       └── epuck_controller.py
+│   └── ElectroBots/
+│       └── ElectroBots.py
 ├── worlds/
-│   └── RoboGames_2024_University_Category.wbt
+│   └── Robogames.wbt
+|   └── .Robogames.wbproj
+|   └── .Robogames.jpg
 └── README.md
 ```
 
-- **controllers/epuck_controller/epuck_controller.py**: Contains the Python code for the robot's behavior.
-- **worlds/RoboGames_2024_University_Category.wbt**: The Webots world file for the simulation.
+- **controllers/ElectroBots/ElectroBots.py**: Contains the Python code for the robot's behavior.
+- **worlds/Robogames.wbt**: The Webots world file for the simulation.
 
 ### Highlights of Controller Code
 
@@ -105,11 +107,6 @@ IESL-RoboGames-2024/
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## Acknowledgments
 
