@@ -52,7 +52,7 @@ The maze used in this project was designed by **[Friend's GitHub Name](https://g
 
 ### Maze World File
 
-Download the Webots world file of the maze here: [Maze World File](https://your-maze-world-link.com)
+Download the Webots world file of the maze here: [Maze World File](https://github.com/Nishitha0730/IESL-RoboGames-2024/blob/main/First%20Round/Maze.zip)
 
 ---
 
