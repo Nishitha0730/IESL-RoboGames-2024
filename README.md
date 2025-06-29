@@ -111,7 +111,7 @@ IESL-RoboGames-2024/
 ## Acknowledgments
 
 - **IESL RoboGames 2024** organizers for providing the platform.
-- **[Friend's GitHub Name](https://github.com/FriendsGitHubProfile)** for designing the maze.
-- University mentors and peers for their support.
+
+
 
 For any queries, feel free to contact me via [GitHub Issues](https://github.com/Nishitha0730/IESL-RoboGames-2024/issues).
