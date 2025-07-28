@@ -2,7 +2,7 @@
 
 Welcome to the official repository for our submission to the **IESL RoboGames 2024 - University Category (Elimination Round)**. This task involved simulating a robot in a burning maze environment using **Webots**, with the objective of rescuing survivors and avoiding fire pits.
 
-![Task Demo](images/demo.png) <!-- Replace with your actual image path -->
+![Task Demo](maze.png) <!-- Replace with your actual image path -->
 
 ---
 
