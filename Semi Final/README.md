@@ -51,11 +51,11 @@ The Faculty of Robo Games is on fire! Your mission is to program a robot to:
 
 ## 📂 Project Structure
 
-├── controllers/
-│ └── rescue_controller.py
-├── worlds/
-│ └── maze_world.wbt
-├── images/
-│ └── demo.png
-├── README.md
-└── requirements.txt
+-├── controllers/
+-│ └── rescue_controller.py
+-├── worlds/
+-│ └── maze_world.wbt
+-├── images/
+-│ └── demo.png
+-├── README.md
+-└── requirements.txt
