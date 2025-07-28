@@ -32,7 +32,7 @@ The Faculty of Robo Games is on fire! Your mission is to program a robot to:
 
 ## 🤖 Robot Specifications
 
-- Built from scratch in Webots (no pre-built bots)
+- Built from scratch in Webots (similar to the e-puck)
 - Max Size: 25cm x 25cm x 25cm
 - No camera vision beyond wall limits
 - Custom logic for rescue + path planning
@@ -51,3 +51,11 @@ The Faculty of Robo Games is on fire! Your mission is to program a robot to:
 
 ## 📂 Project Structure
 
+├── controllers/
+│ └── rescue_controller.py
+├── worlds/
+│ └── maze_world.wbt
+├── images/
+│ └── demo.png
+├── README.md
+└── requirements.txt
