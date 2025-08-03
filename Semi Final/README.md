@@ -18,6 +18,14 @@ The Faculty of Robo Games is on fire! Your mission is to program a robot to:
 
 ---
 
+## 📌 Key Features of My Solution
+
+✅ **Maze Mapping** using **Floodfill Algorithm**  
+✅ **Shortest Path Calculation** using **A\* Search Algorithm**   
+✅ Custom robot controller coded from scratch in Python for Webots  
+
+---
+
 ## 🛠️ Arena Specifications
 
 - **Maze Size:** 5m × 5m  
